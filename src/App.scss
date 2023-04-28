@@ -57,3 +57,21 @@ body{
     margin-top: 1em;
   }
 }
+
+.convertor{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: fit-content;
+  margin-top: 3rem;
+
+  input{
+    font-size: 20px;
+    padding: .3em;
+  }
+
+  .alert{
+    color: red;
+    font-size: 14px;
+  }
+}
